@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.header {
+  width: 100%;
+  height: 173px;
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  width: 100%;
+  max-width: 600px;
+  margin-top: -30px;
+}
+
+.addNewTodo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.addNewTodo input {
+  flex: 1;
+  height: 54px;
+  padding: 16px;
+  background-color: #262626;
+  border-radius: 6px;
+  margin-right: 4px;
+  border: 1px solid #0d0d0d;
+  color: #f2f2f2;
+  font-size: 16px;
+}
+
+.addNewTodo button {
+  width: 52px;
+  border-radius: 6px;
+  background-color: #1e6f9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #262626;
+  border-radius: 6px;
+}
+
+.todoItem input[type="checkbox"] {
+  margin-right: 16px;
+}
+
+.todoItem .text {
+  flex: 1;
+}
+
+.todoItem .text2 {
+  flex: 1;
+  text-decoration: line-through;
+}
+
+.todoItem .removeButton {
+  background: none;
+  border: none;
+  color: #f2f2f2;
+}
+
+.finished {
+  opacity: 0.6;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.color1 {
+  color: #1e6f9f;
+}
+
+.color2 {
+  color: #5e60ce;
+}
