@@ -52,7 +52,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="header">
-        <img src="/assets/logo.png" alt="Logo" />
+        {/*    <img src="/assets/logo.png" alt="Logo" /> */}
       </div>
       <div className="body">
         <AddNewTodo onAdd={handleTodoAdd} />
