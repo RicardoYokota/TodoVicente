@@ -1,4 +1,6 @@
 import React from 'react';
+import { MdOutlineRemoveCircleOutline } from "react-icons/md";
+import '../styles.css';
 
 const Todo = ({ name, onRemove, onChecked, checked }) => {
   return (
@@ -9,8 +11,8 @@ const Todo = ({ name, onRemove, onChecked, checked }) => {
         onChange={(e) => onChecked(e.target.checked)}
       />
       <span className={checked ? 'text2' : 'text'}>{name}</span>
-      <button onClick={onRemove}>
-        <img src="/assets/trash.png" alt="Remove" />
+      <button onClick={onRemove} className="removeButton">
+        <MdOutlineRemoveCircleOutline size={20} />
       </button>
     </div>
   );

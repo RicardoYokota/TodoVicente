@@ -99,3 +99,15 @@ body {
 .color2 {
   color: #5e60ce;
 }
+
+.removeButton {
+  border-radius: 50%; /* Deixa o botão circular */
+  padding: 3px; /* Espaçamento interno para centralizar o ícone */
+  background-color: #f0f0f0; /* Cor de fundo para visualizar o border-radius */
+  border: none; /* Remove borda padrão */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+.removeButton:hover {
+  background-color: #f40707; /* Cor de fundo ao passar o mouse */
+}
